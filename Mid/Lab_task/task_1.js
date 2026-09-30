@@ -6,7 +6,7 @@ marks.push(79);
 marks.push(67);
 marks.push(99);
 marks.push(86);
-marks.push(45);
+marks.push(73);
 
 function calculateTotal(marks) {
   let total = 0;
@@ -36,7 +36,6 @@ function calculateGrade(marks) {
     }
   }
 
-  // If all subjects are passed, calculate grade from average
   const average = calculateAverage(marks);
 
   if (average >= 80) {
